@@ -1,5 +1,11 @@
 module RBFnetwork
 
-# Write your package code here.
+    using Distances
+    using ArgCheck
+    using Random
+
+    include("rbf.jl")
+
+    export RBF, makerbf, numparam
 
 end
